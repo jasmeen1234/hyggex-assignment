@@ -7,6 +7,7 @@ import HeaderStudy from './components/HeaderStudy';
 import Table from './components/Table';
 import Tablebar from './components/Tablebar';
 import PlusComp from './components/PlusComp';
+import Faq from './components/Faq';
 function App() {
   return (
     <div className="App">
@@ -19,6 +20,7 @@ function App() {
         <Table/>
         <Tablebar/>
         <PlusComp/>
+        <Faq/>
     </div>
   );
 }
